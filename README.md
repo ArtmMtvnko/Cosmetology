@@ -1,2 +1,2 @@
-# LearnLanguage
+# Cosmetology
 Simple business card website.
