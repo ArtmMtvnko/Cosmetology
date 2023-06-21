@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 html,
 body {
@@ -58,11 +58,12 @@ body {
     align-items: center;
     flex: 1;
     color: #252B42;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 .brand-name h3 {
     margin: 0 0 0 40px;
+    font-weight: 700;
 }
 
 /* ======== HEADER INFO ========= */
@@ -77,13 +78,42 @@ body {
 }
 
 .header__info > * {
-    margin: 20px 0;
+    margin: 20px 40px;
+    line-height: 1.5em;
 }
 
 .header__info h5 {
     color: #23A6F0;
+    font-size: 16px;
 }
 
 .header__info h1 {
     font-size: 48px;
+    font-weight: 700;
+}
+
+.header__info h4 {
+    color: #737373;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.buttons__info > * {
+    border-radius: 5px;
+    border: 1px solid #23A6F0;
+    padding: 12px 34px;
+    margin: 0 5px 0 0;
+}
+
+.buttons__info>:nth-child(1) {
+    background-color: #23A6F0;
+    color: #fff;
+    font-weight: 700;
+}
+
+.buttons__info>:nth-child(2) {
+    background-color: #fff;
+    color: #23A6F0;
+    font-weight: 700;
+
 }
