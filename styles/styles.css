@@ -5,8 +5,10 @@ body {
     height: 100%;
 }
 
+/* ========= NAVIGATION ========== */
+
 .container {
-    max-width: 1080px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -27,7 +29,7 @@ body {
 .navigation__wrapper {
     display: flex;
     align-items: center;
-    margin: 40px 0 0 0;
+    margin: 40px 0 60px;
 }
 
 .navigation {
@@ -60,5 +62,28 @@ body {
 }
 
 .brand-name h3 {
-    margin: 0 40px;
+    margin: 0 0 0 40px;
+}
+
+/* ======== HEADER INFO ========= */
+
+.info {
+    display: flex;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__info > * {
+    margin: 20px 0;
+}
+
+.header__info h5 {
+    color: #23A6F0;
+}
+
+.header__info h1 {
+    font-size: 48px;
 }
